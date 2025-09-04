@@ -1,5 +1,5 @@
 COMMANDS TO RUN THE PROJECT:
-npm install 
+npm install,
 npm run dev
 
 # React + Vite
