@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #f0f2f5;
+}
+
+header h1 {
+  color: #333;
+}
+
+.shortener-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result-container {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.result-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #e9ecef;
+  padding: 0.75rem;
+  border-radius: 4px;
+  word-break: break-all;
+}
+
+.result-box a {
+  flex-grow: 1;
+  color: #007bff;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
